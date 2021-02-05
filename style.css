@@ -1,0 +1,201 @@
+body{
+    background-color:#20244B;
+    font-family: sans-serif;
+    padding: 0;
+    margin:0 auto;
+    font-family:'Lato','Garamond',serif;
+
+}
+.website{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #faf4ff;
+    color:#2d2d41;
+    border-style: solid;
+    border-color: #433e5f;
+    border-width: 1px;
+    filter: drop-shadow(0 0 2rem #000000);
+}
+
+.header{
+    padding: 5px 25px 5px;
+   
+    background-color: #d9dbff; 
+    text-align: left;
+
+}
+.headerLogo{
+    font-family:'Bad Script', 'Garamond', 'Trebuchet MS', serif;
+    color: #171738ff;
+    padding:5px 0px;
+    display: inline-block;
+    margin:0px;
+
+
+    }
+
+.navBar{
+    background-color: 7;
+    width:1000px;
+    padding: 0;
+    margin: 0px;
+    display: block;
+    border-top: 1px solid #faf4ff;
+    border-bottom: 1px solid #faf4ff;
+  
+
+}
+.subTitle2{
+    color: #fef9e7;
+    border-left: 10px double #30395e ;
+    background-color: #6376C5ff ;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+    display: inline-block;
+    border-radius:0px 15px 15px 0px;
+    text-align: center;
+    font-family: 'Bad Script', 'Garamond', 'Trebuchet MS', serif;
+
+}
+.subTitle3{
+  color: #ffffff;
+  border-left: 10px double #6c61bd ;
+  background-color: #AEA7E7 ;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 40px;
+  display: inline-block;
+  border-radius:0px 15px 15px 0px;
+  text-align: center;
+  font-family: 'Bad Script', 'Garamond', 'Trebuchet MS', serif;
+
+}
+.subTitle4{
+  color: #ffffff;
+  border-left: 10px double  #a39fc6;
+  background-color: #c5c2db ;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 40px;
+  display: inline-block;
+  border-radius:0px 15px 15px 0px;
+  text-align: center;
+  font-family: 'Bad Script', 'Garamond', 'Trebuchet MS', serif;
+
+}
+.subTitle1{
+    color: #5f5f8a;
+    
+    border-left: 10px double #7f81aa  ;
+    background-color: #C4C7FBff  ;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+
+    display: inline-block;
+    border-radius:0px 15px 15px 0px;
+    text-align: center;
+    font-family: 'Bad Script', 'Garamond', 'Trebuchet MS', serif;
+}
+/* Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(87, 105, 177);
+    text-align: center;
+  }
+  
+li {
+
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #E5eaf5;
+  
+  }
+  
+  /* Hover Color */
+li a:hover { /* Actions that happened when hovered */
+    background-color: #e5eaf5; /* Color of backgroung when hovered */
+    color:#4e3e7c; /* Color of text when hovered */
+    border-radius: 16px; /* rounded corners when hovered */
+    
+  }
+
+
+.paragraph{
+    padding:0px 30px 0px 16px; /* padding on all side of body text */
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align : justify; /* block text */
+  }
+
+.img{
+    float: center; 
+    /* center of page */
+    overflow: hidden;
+    background-color: #6672C3;
+    margin: 0px;
+    width: 100%;
+    height:100%;
+    height: 370px;
+  }
+.footer{
+  background-color: #404980; 
+  color:#fff9ed;
+  font-family: 'Bad Script', cursive;
+  padding: 15px;
+  text-align: center;
+
+  }
+
+table.resources{
+
+  margin: 0 auto;
+  width: 900px;
+}
+th{
+  background-color: black;
+  color: white;
+}
+td{
+  text-align: center;
+  width: 450px;
+}
+tr, td, th{
+  border: 1px solid black ;
+}
+.noOutline{
+  border: 0px;
+}
+.outlineLeft{
+  border-left: 3px double #5c546354;
+}
+.resourceTitle{
+
+  color: #6c61bd;
+  text-align: center;
+  font-family: 'Bad Script', 'Garamond', 'Trebuchet MS', serif;
+}
+h4, p, a{
+  text-align: center;
+}
+a{
+  text-decoration: underline;
+  color: #20244B;
+}
+#resources{
+  padding : 0px 30px 0px 0px;
+}
+
+ 
